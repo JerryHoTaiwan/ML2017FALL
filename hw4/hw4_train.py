@@ -19,7 +19,7 @@ def word2index(model,text,num):
                 line = text[i]
                 j = 0;
                 for word in line.split(' '):
-                        if j > 31: #padding(limit) sequences to lenght 32
+                        if j > 31: 
                                 break
                         if word in vocab:
                                 matrix[i][j] = vocab[word]
