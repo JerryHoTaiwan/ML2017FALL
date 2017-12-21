@@ -1,0 +1,1 @@
+print ('We Are Lamigo')
